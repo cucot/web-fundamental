@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+   
+        <form method="POST" action="">
+            <div>
+                <label for="firstname">First name:</label>
+                <input type="text" id="firstname">
+                <label for="lastname">Last name:</label>
+                <input type="text" id="lastname">
+                <br>
+            </div>
+            <div>
+                <label for="gender_checkbox">Gender</label>
+                <input type="radio"  name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+                <input type="radio" name="gender" value="unidentified">Unidentified
+            </div>
+            <div>
+                <label for="date">Date</label>
+                <input id="date" type="date" name="date">
+            </div>
+
+            <div>
+                <label for="">Email</label>
+                <input type="email">
+            </div>
+        
+            <div>
+                <label for="">Percentage</label>
+                <input type="number" name="percentage" step="1" min="0" max="10">
+            </div>
+            <div>
+                <input type="hidden" name="whoami" value="kevin">
+                <input type="file" name="filee">
+
+            </div>
+            <input type="submit">
+        </form>
+    
+    
+</body>
+</html>
