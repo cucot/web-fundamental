@@ -1,0 +1,9 @@
+h1 {
+    color: red;/* this is named colors*/
+}
+h2 {
+    color: #0000f0; /* #abc is short for #aabbcc */
+}
+h3 {
+    color: rgb(0, 0, f);
+}

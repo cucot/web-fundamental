@@ -1,0 +1,15 @@
+body {
+    background-color: red;
+    color: #fff;
+}
+
+.grey {
+    background-color: grey;
+    color: black;
+}
+
+h1 {
+    background-color: sandybrown;
+    color: rgb(123, 200, 10);
+    margin: 0;
+}
