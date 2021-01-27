@@ -1,0 +1,103 @@
+body {
+    padding: 20px;
+    background-color: seashell;
+}
+input, textarea, button, label {
+    display:block;
+}
+input {
+    margin-bottom:10px;
+    border: 1px grey solid;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    background-color:teal;
+    color: white;
+    border-radius: 3px;
+}
+label {
+    margin-bottom: 4px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+nav {
+    text-align: center;
+    font-size: larger;
+    font-weight:bold;
+}
+p {
+    /*text-align: center;*/
+}
+form {
+    margin: 0 auto;
+    width: 33%;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    border: 1px solid royalblue;
+}
+
+textarea {
+    padding: 10px;
+}
+
+p.textleft {
+    text-align: left;
+}
+
+p.textright {
+    text-align: right;
+}
+
+p.textcenter {
+    text-align: center;
+}
+
+p.textjustify {
+    text-align: justify;
+}
+
+i {
+    color: red;
+    text-decoration: wavy underline;
+}
+
+p.deco {
+    text-decoration: overline;
+}
+
+span.underline {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: magenta;
+}
+span.strike {
+    text-decoration: line-through;
+}
+
+p.texttransformupper {
+    text-transform: uppercase;
+}
+p.textlower {
+    text-transform: lowercase;
+}
+
+p.textcap {
+    text-transform: capitalize;
+}
+p.textunset{
+    text-transform:unset;
+}
+
+textarea.upper {
+    text-transform: uppercase;
+}
+
+p.textindent {
+    text-indent: -10px;
+}
+
+p.textwithspacing {
+    letter-spacing: -2px;
+}
