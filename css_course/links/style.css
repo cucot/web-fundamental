@@ -1,0 +1,54 @@
+body {
+    background-color: aliceblue;
+    padding: 5px 10px;
+}
+h1 {
+    width: 500px;
+    margin:0 auto;
+    text-align: center
+}
+#page-title {
+    border-bottom: 1px solid navajowhite;
+}
+
+.link1 {
+   
+    margin-top: 20px;
+    text-decoration: none;
+}
+.link1:hover {
+    text-decoration: underline;
+    font-style: italic;
+    text-decoration-color: saddlebrown;
+    color: red;
+    font-weight: bolder;
+}
+
+.link1:visited {
+    color : brown;
+    text-decoration: seagreen;
+}
+.link1:active {
+    color: blue;
+    margin-left: 100px;
+}
+div > p {
+    color:orange;
+}
+div div p.huhu {
+    color: olivedrab;
+}
+#myId {
+    color: yellowgreen
+}
+span.navy {
+    color: yellow;
+}
+
+span {
+    color: blue;
+}
+
+footer p {
+    color:red;
+}
