@@ -101,3 +101,68 @@ p.textindent {
 p.textwithspacing {
     letter-spacing: -2px;
 }
+p.lineheight {
+    font-size: 15px;
+    line-height: 25px;
+}
+p.righttoleft {
+    direction: rtl;
+}
+input.rtl {
+    direction: rtl;
+}
+p.wordspacing {
+    word-spacing: 10%;
+}
+p.serif {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p.sans {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif cursive;
+}
+
+p.googlefont {
+    font-family: 'Potta One', cursive;
+
+}
+
+span.styleita {
+    font-style: italic;
+}
+
+span.styleoblique {
+    font-style: oblique;
+}
+
+span.styleinit {
+    font-style: initial;
+}
+
+#fontsize20 {
+    font-size: 20;
+}
+#fontsize30px {
+    font-size: 30px;
+}
+
+#fontsizelarge {
+    font-size:larger;
+}
+
+.roboto {
+    font-family: Roboto;
+}
+.w400 {
+    font-weight: 400;
+}
+.w700 {
+    font-weight: 700;
+}
+.w800 {
+    font-weight: 800;
+}
+
+.w900 {
+    font-weight: 900;
+}
