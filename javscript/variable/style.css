@@ -1,0 +1,15 @@
+body {
+    width: 60%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+h1 {
+    text-align: center;
+}
+li {
+    font-weight: bold;
+    list-style: circle;
+    list-style-position: inside;
+    margin-bottom: 5px;
+    border: 1px solid red;
+}
